@@ -1,0 +1,22 @@
+h1,h2,h3,h4,p{
+    color: var(--letter-dark);
+}
+
+.principal-content h1{
+    
+    font-size: 28px;
+}
+
+.principal-content span{
+    
+    color: var(--letter-light);
+}
+
+.principal-content{
+    width: 100%;
+}
+
+.message-content{
+    float: left;
+    margin-left: 150px;
+}

@@ -1,0 +1,21 @@
+.main-menu{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.main-menu ul{
+    text-align: center;
+}
+
+.main-menu ul li{
+    margin: 10px 0;
+    float: none;
+    display: inline-block;
+}
+
+.main-menu ul li a{
+    padding: 10px 100px;
+    font-size: 22px;
+}

@@ -5,10 +5,11 @@
 @import './styles/main-menu.css';
 @import './styles/content.css';
 @import './styles/header.css';
+@import './styles/loop.css';
 
 :root {
-  --letter-dark: rgb(133, 134, 122);
-  --letter-light: rgb(234, 237, 200);
+  --letter-dark: rgb(0, 0, 0);
+  --letter-light: rgb(104, 0, 92);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,9 +21,25 @@
 }
 
 body {
-  color: var(--letter-light);
-  background-color: rgb(40, 0, 31);
+  background-color: rgb(242, 242, 242);
+
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
+
+html, body, .container{
+  height: 100%;
+  margin: 0;
+}
+
+#root, #__next {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 
 @layer utilities {
   .text-balance {

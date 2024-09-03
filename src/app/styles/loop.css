@@ -3,30 +3,29 @@
     height: auto;
     margin: auto;
     overflow: hidden;
-    position: relative; /* Asegura que los pseudo-elementos se posicionen correctamente */
+    position: relative; 
+    
 }
 
-.slider::before, .slider::after {
+/* .slider::before, .slider::after {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 60px; /* Aumento del ancho del desvanecimiento */
-    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la derecha */
-    pointer-events: none; /* Evita la interacción con el usuario */
-    z-index: 1; /* Asegura que el degradado se muestre por encima del contenido del slider */
-}
+    width: 60px;
+    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); 
+    pointer-events: none; 
+    z-index: 1;
 
 .slider::before {
     left: 0;
-    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la derecha desde el borde izquierdo */
-}
+    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); 
 
 .slider::after {
     right: 0;
-    width: 60px; /* Aumento del ancho del desvanecimiento */
-    background: linear-gradient(to left, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la izquierda desde el borde derecho */
-}
+    width: 60px; 
+    background: linear-gradient(to left, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); 
+} */
 
 .slider .slide-track {
     display: flex;

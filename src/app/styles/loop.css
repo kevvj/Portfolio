@@ -1,51 +1,60 @@
-.tag-list{
-    width: 30rem;
-    position: relative;
-    font-family: 'Montserrat';
+.slider {
+    width: 50vw;
+    height: auto;
+    margin: auto;
     overflow: hidden;
+    position: relative; /* Asegura que los pseudo-elementos se posicionen correctamente */
 }
 
-.inner{
-    width: fit-content;
-    display: flex;
-    gap: 1rem;
-    animation: loop 15s linear infinite;
+.slider::before, .slider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px; /* Aumento del ancho del desvanecimiento */
+    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la derecha */
+    pointer-events: none; /* Evita la interacción con el usuario */
+    z-index: 1; /* Asegura que el degradado se muestre por encima del contenido del slider */
 }
 
-.tag{
+.slider::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la derecha desde el borde izquierdo */
+}
+
+.slider::after {
+    right: 0;
+    width: 60px; /* Aumento del ancho del desvanecimiento */
+    background: linear-gradient(to left, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0)); /* Degradado hacia la izquierda desde el borde derecho */
+}
+
+.slider .slide-track {
     display: flex;
+    animation: scroll 67s linear infinite;
+    -webkit-animation: scroll 67s linear infinite;
+    width: calc(120px * 14); 
     align-items: center;
-    gap: 0 0.2rem;
-    color: #e2e8f0;
-    font-size: 0.9rem;
-    background-color: #334155;
-    padding: 0.7rem 1rem;
-    border-radius: 0.4rem;
-    box-shadow: 
-    0 0.1rem 0.2rem #00000033,
-    0 0.1rem 0.5rem #00000033,
-    0 0.2rem 1.5rem #00000033;
-    
+    position: relative; /* Asegura que el contenido del slider esté sobre el degradado */
 }
 
-.tag span{
-    font-size: 1.2rem;
-    color: #64748b;
+.slider .slide {
+    width: 120px;
+    height: 100%;
 }
 
-.fade{
-    position:absolute;
-    background: linear-gradient(90deg, #1e293b, transparent 30%, transparent 70%, #1e293b);
-    inset: 0;
-    pointer-events: none;
+.slider .slide img {
+    width: 100%;
+    height: auto;
 }
 
-@keyframes loop {
+@keyframes scroll {
     0% {
+        -webkit-transform: translateX(0);
         transform: translateX(0);
     }
 
     100% {
-        transform: translateX(-50%);
+        -webkit-transform: translateX(calc(-120px * 7)); 
+        transform: translateX(calc(-120px * 7)); 
     }
 }

@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <div className="a">
+        <div className="Header">
             <header>
             <img className="top-pic" src="https://content.imageresizer.com/images/memes/El-Gato-meme-6.jpg"></img>
             </header>

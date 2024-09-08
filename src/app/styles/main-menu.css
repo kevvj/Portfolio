@@ -3,16 +3,21 @@
     width: 100%;
     margin-bottom: 200px;
     margin-top: 0px;
+    
 }
 
 .main-menu ul{
     text-align: center;
+    
 }
 
 .main-menu ul li{
     margin: 10px 0;
     float: none;
     display: inline-block;
+    border-radius: 5px;
+    border: 2px solid rgb(133, 106, 133);
+    
 }
 
 .main-menu ul li a{

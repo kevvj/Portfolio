@@ -1,9 +1,10 @@
 .principal-content {
-    flex: 1;
+    flex-grow: 1; 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; 
+    justify-content: flex-start; 
     width: 100%;
+    
 }
 
 h1, h2, h3, h4, p {
@@ -18,9 +19,17 @@ h1, h2, h3, h4, p {
     color: var(--letter-light);
 }
 
+
 .message-content {
-    float: left;
     margin-left: 150px;
     width: 100%;
-    margin-bottom: 500px;
+    display: block; 
+}
+
+
+.footer {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    position: relative; 
 }

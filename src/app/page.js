@@ -4,6 +4,7 @@ import Loop from "./loop";
 import Header from "./Header";
 import Menu from "./Menu";
 import Principal from "./PrincipalContent";
+import Proyect from './Proyects';
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
       <Header />
       <Menu />
       <Principal />
+      <Proyect />
       <Loop />
+      
     </div>
   );
 }

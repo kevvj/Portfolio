@@ -6,6 +6,7 @@
 @import './styles/content.css';
 @import './styles/header.css';
 @import './styles/loop.css';
+@import './styles/proyects.css';
 
 :root {
   --letter-dark: rgb(0, 0, 0);
@@ -28,14 +29,19 @@ body {
   font-weight: 500;
   font-style: normal;
   height: auto;
-  overflow-x: hidden;
+  
 
   display: flex;
   justify-content: center; 
   align-items: center; 
+
+  overflow-x: hidden;
 }
 
-
+.container{
+  justify-content: center;
+  align-items: center;
+}
 
 
 html, body, .container{

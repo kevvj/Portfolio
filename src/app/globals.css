@@ -35,6 +35,9 @@ body {
   align-items: center; 
 }
 
+
+
+
 html, body, .container{
 
   margin: 0;
@@ -46,7 +49,9 @@ html, body, .container{
 }
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 @layer utilities {
   .text-balance {

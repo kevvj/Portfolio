@@ -1,6 +1,6 @@
 const ILoop = ()=> {
     return (
-      <div className = "slider">
+      <div className = "slider" id = "aboutme">
         <div className = "slide-track">
 
           <div className = "slide">

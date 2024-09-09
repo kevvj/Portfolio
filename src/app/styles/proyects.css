@@ -1,8 +1,8 @@
-.proyect-content{
+.proyect-content {
     margin-top: 500px;
 }
 
-.proyects-estructure-content{
+.proyects-estructure-content {
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -15,24 +15,36 @@
     margin-top: 50px;
 }
 
-.proyect-header{
+.proyect-header {
     border: 1px solid black;
     width: 100%;
+    padding: 10px;
 }
 
-.img-container-proyect{
+.proyect-header h2 {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+
+}
+
+.img-container-proyect {
     border: 1px solid black;
     width: 100%;
     margin-top: 10px;
     padding: 10px;
 }
 
-.img-container-proyect img{
+.img-container-proyect img {
     width: 100%;
 }
 
-.description-container{
+.description-container {
     width: 100%;
     border: 1px solid black;
     margin-top: 10px;
+    padding: 20px;
+    text-align: left;
 }

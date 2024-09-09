@@ -25,7 +25,7 @@ const Proyect = () => {
             <ProyectEstructure
                 title={"JojoApp"}
                 img={"/img/JojoApp.jpg"}
-                description={"Supuesta descripcion"}
+                description={"JojoApp está dedicada a los fanáticos de JoJo's Bizarre Adventure, ofreciendo una completa colección de tarjetas que incluyen todos los Stands de la serie. Cada tarjeta contiene detalles sobre el Stand, su nombre, la primera aparición en la serie, la canción a la que hace referencia, y otras curiosidades relacionadas. Es una herramienta perfecta para explorar el universo de JoJo y disfrutar de las conexiones musicales y culturales detrás de cada Stand."}
             />
 
             <ProyectEstructure

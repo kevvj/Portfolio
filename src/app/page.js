@@ -8,7 +8,6 @@ export default function Home() {
     <div className="container">
       
       <Header />
-      <Menu />
       <Principal />
       
     </div>

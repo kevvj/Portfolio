@@ -1,11 +1,12 @@
 .top-pic{
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 50px;
-    border-radius: 25px;
+    width: 250px;
+    border-radius: 125px;
     border-bottom: 0px;
 }
 
 .Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
 }

@@ -11,16 +11,16 @@ const Menu = () => {
         <div className="main-menu">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="">Proyects</a>
+                    <a href="#">Proyects</a>
                 </li>
                 <li>
-                    <a href="">Skills</a>
+                    <a href="#">Skills</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </div>

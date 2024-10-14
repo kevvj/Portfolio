@@ -1,13 +1,18 @@
 .main-menu{
-    float: left;
-    width: 100%;
+  
     margin-bottom: 200px;
     margin-top: 0px;
+    margin-right: 50px;
+    
     
 }
 
 .main-menu ul{
     text-align: center;
+    display: flex;
+    gap: 10px;
+    float: right;
+    
     
 }
 

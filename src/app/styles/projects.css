@@ -1,0 +1,64 @@
+.projects-conteiner article{
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%; 
+}
+
+.projects-conteiner li{
+    margin-bottom: 70px;
+}
+
+.projects-conteiner header {
+    flex-grow: 1; 
+}
+
+
+
+.projects-conteiner ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:10px;
+}
+
+.projects-conteiner h3 {
+    margin-bottom: 4px;
+}
+
+.projects-conteiner a {
+    color: #111;
+}
+
+.projects-conteiner a:hover {
+    text-decoration: underline;
+}
+
+.projects-conteiner p {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    margin-bottom: 4px; 
+}
+
+.projects-conteiner footer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+}
+
+.projects-conteiner ul li ul span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+}
+
+.projects-conteiner h3 span {
+    color: rgb(3, 135, 36);
+    margin-left: 5px;
+}

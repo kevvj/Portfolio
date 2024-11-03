@@ -1,0 +1,31 @@
+.exp-conteiner ul{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+}
+
+.exp-conteiner h3{
+    font-weight: 500;
+    color: #111;
+}
+
+.exp-conteiner h4{
+    font-weight: 400;
+    color: #222;
+}
+
+.exp-conteiner header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.exp-conteiner time{
+   color: #555;
+   font-size: 0.85rem;
+}
+
+
+

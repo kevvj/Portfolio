@@ -1,14 +1,30 @@
+import Hero from "./Hero";
+import Section from "./Section";
+import About from "./About";
+import Experience from "./Experience";
+import Skills from "./Skills";
+import Projects from "./Projects";
 
-import Header from "./Header";
-import Menu from "./Menu";
-import Principal from "./PrincipalContent";
+
+
+
 
 export default function Home() {
   return (
     <div className="container">
       
-      <Header />
-      <Principal />
+      
+      <Hero></Hero>
+
+      <About></About>
+
+      <Experience></Experience>
+
+      <Projects></Projects>
+
+      <Skills></Skills>
+
+     
       
     </div>
   );

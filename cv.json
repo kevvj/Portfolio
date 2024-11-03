@@ -1,0 +1,220 @@
+{
+  "basics": {
+    "name": "Kevin Tapias",
+    "label": "Desarrollador Web Full Stack Junior (Estudiante)",
+    "image": "src/app/ICONS/icon.jpg",
+    "email": "kevinjvillalba774@gmail.com",
+    "phone": "+57 321 814 1425",
+    "url": "https://johndoe.com",
+    "summary": "Desarrollador full-stack junior con habilidades en desarrollo front-end y back-end, principalmente utilizando React, Node.js y MySQL. Apasionado por crear aplicaciones web centradas en el usuario y en aprendizaje constante de nuevas tecnologías.",
+    "location": {
+      "address": "------",
+      "postalCode": "230004",
+      "city": "Monteria",
+      "countryCode": "COL",
+      "region": "Cordoba"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kevvj",
+        "url": "https://github.com/kevvj"
+      },
+      {
+        "network": "Linkedin",
+        "username": "kevin-josé-t-villalba",
+        "url": "https://www.linkedin.com/in/kevin-jos%C3%A9-t-villalba-2977422aa/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Proyectos Personales",
+      "position": "Desarrollador Full Stack (Estudiante)",
+      "url": "https://github.com/kevvj",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "Apasionado por el desarrollo web, he creado y colaborado en proyectos que me han permitido dominar tecnologías front-end y back-end. Desde plataformas de comercio electrónico hasta aplicaciones interactivas, mis proyectos destacan por su diseño funcional y orientado al usuario. Siempre en busca de soluciones creativas y prácticas, aplico lo último en desarrollo full-stack para optimizar la experiencia del usuario y la eficiencia del código.",
+      "highlights": [
+        "Diseño y desarrollo de una plataforma de comercio electrónico, integrando React y Node.js para una experiencia fluida y segura",
+        "Creación de un portafolio profesional personal con una interfaz atractiva y responsive para exhibir mis proyectos de forma dinámica"
+      ]
+    }
+  ],
+
+  "volunteer": [
+    {
+      "organization": "Code for Good",
+      "position": "Desarrollador Voluntario",
+      "url": "https://codeforgood.org/",
+      "startDate": "2021-05-01",
+      "endDate": "2021-12-01",
+      "summary": "Contribución en proyectos web para organizaciones sin fines de lucro, enfocado en interfaces accesibles y amigables para el usuario.",
+      "highlights": [
+        "Desarrollo de un sitio de donaciones, aumentando las contribuciones en línea en un 30%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Córdoba",
+      "url": "https://unicordoba.edu.co/",
+      "area": "Ingeniería de Software",
+      "studyType": "Licenciatura",
+      "startDate": "2019-01-01",
+      "endDate": "2023-01-01",
+      "score": "4.0",
+      "courses": [
+        "Desarrollo Web Avanzado",
+        "Estructuras de Datos y Algoritmos",
+        "Sistemas de Gestión de Bases de Datos"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Premio al Mejor Estudiante",
+      "date": "2022-12-01",
+      "awarder": "Universidad de Córdoba",
+      "summary": "Reconocimiento por excelencia académica y desempeño destacado en cursos de desarrollo de software."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Desarrollo Web Full Stack",
+      "date": "2021-11-07",
+      "issuer": "Coursera",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Construcción de Aplicaciones Web Escalables",
+      "publisher": "Blog Personal",
+      "releaseDate": "2023-06-01",
+      "url": "https://medium.com/@kevvj",
+      "summary": "Artículo sobre buenas prácticas y herramientas para construir aplicaciones web escalables."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": []
+    },
+
+    {
+      "name": "NodeJS",
+      "level": "Intermedio",
+      "keywords": []
+    },
+
+    {
+      "name": "ExpressJS",
+      "level": "Intermedio",
+      "keywords": []
+    },
+    {
+      "name": "Control de versiones Git/GitHub",
+      "level": "Intermedio",
+      "keywords": []
+    },
+
+    {
+      "name": "Creación y consumo de APIs RESTful",
+      "level": "Intermedio",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglés",
+      "fluency": "Competencia profesional"
+    },
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tecnologías Web",
+      "keywords": ["React", "Desarrollo de APIs", "Código Abierto"]
+    },
+    {
+      "name": "Videojuegos",
+      "keywords": ["Juegos de Estrategia", "Desarrollo de Juegos", "Realidad Virtual"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Disponible a solicitud"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tienda en Línea de Ropa y Accesorios Deportivos",
+      "isActive": true,
+      "description": "Aplicación web para gestionar inventario y procesar ventas en línea para un emprendimiento local.",
+      "highlights": [
+        "Desarrollado con React",
+        "Integración de procesamiento de pagos",
+        "Uso de base de datos MySQL"
+      ],
+      "url": "https://github.com/kevvj/clothes-app"
+    },
+    {
+      "name": "Aplicación Peluquería y Spa para Mascotas",
+      "isActive": false,
+      "description": "Desarrollo de una aplicación para la gestión de servicios en una peluquería y spa para mascotas.",
+      "highlights": [
+        "Desarrollada en Java",
+        "Base de datos integrada"
+      ], "url":"https://github.com/kevvj/PetsHCandS"
+    },
+    
+    {
+      "name": "JoJoApp - Enciclopedia de Stands de JoJo's Bizarre Adventure",
+      "isActive": true,
+      "description": "Aplicación web interactiva que actúa como una enciclopedia de Stands de la serie JoJo's Bizarre Adventure.",
+      "highlights": [
+        "Desarrollada en JS, Css y HTML",
+        "De fans para fans de la franquisia",
+        "Resposive"
+      ],
+      "url": "https://github.com/kevvj/JojosApp"
+    }
+    
+  ]
+}

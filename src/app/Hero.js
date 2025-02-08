@@ -102,7 +102,7 @@ const Hero = () => {
                 </div>
 
                 <figure>
-                    <img src= "./ICONS/icon.jpg" alt={name}></img>
+                    <img src= "./ICONS/icon.png" alt={name}></img>
                 </figure>
 
 

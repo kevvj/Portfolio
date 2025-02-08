@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kevin Tapias",
     "label": "Desarrollador Web Full Stack Junior (Estudiante)",
-    "image": "src/app/ICONS/icon.jpg",
+    "image": "src/app/ICONS/icon.png",
     "email": "kevinjvillalba774@gmail.com",
     "phone": "+57 321 814 1425",
     "url": "https://johndoe.com",
@@ -27,7 +27,33 @@
       }
     ]
   },
+  "freelance": [
+    {
+      "name": "WithLove - Decoraciones Infantiles",
+      "isActive": true,
+      "description": "Desarrollo de una plataforma web para la gestión y promoción de decoraciones infantiles, permitiendo a los clientes explorar y personalizar servicios de decoración para eventos.",
+      "highlights": [
+        "Creación de una interfaz atractiva y fácil de usar con React",
+        "Implementación de herramientas interactivas para personalizar decoraciones",
+        "Optimización para dispositivos móviles y rendimiento eficiente"
+      ],
+      "url": "https://github.com/kevvj"
+    }
+  ],
   "work": [
+    {
+      "name": "WithLove - Decoraciones Infantiles",
+      "position": "Desarrollador Full Stack (Freelance)",
+      "url": "https://github.com/kevvj",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "Desarrollo de una plataforma personalizada para la gestión y promoción de decoraciones infantiles, integrando herramientas modernas para mejorar la experiencia del usuario y la eficiencia operativa.",
+      "highlights": [
+        "Creación de un sitio web atractivo y funcional para exhibir servicios y productos de decoración infantil.",
+        "Implementación de funcionalidades interactivas para la personalización de pedidos según las necesidades del cliente.",
+        "Optimización del rendimiento y accesibilidad para mejorar la experiencia de usuario en dispositivos móviles y escritorio."
+      ]
+    },
     {
       "name": "Proyectos Personales",
       "position": "Desarrollador Full Stack (Estudiante)",
@@ -41,7 +67,6 @@
       ]
     }
   ],
-
   "volunteer": [
     {
       "organization": "Code for Good",
@@ -132,13 +157,11 @@
       "level": "Intermedio",
       "keywords": []
     },
-
     {
       "name": "NodeJS",
       "level": "Intermedio",
       "keywords": []
     },
-
     {
       "name": "ExpressJS",
       "level": "Intermedio",
@@ -149,7 +172,6 @@
       "level": "Intermedio",
       "keywords": []
     },
-
     {
       "name": "Creación y consumo de APIs RESTful",
       "level": "Intermedio",
@@ -169,11 +191,19 @@
   "interests": [
     {
       "name": "Tecnologías Web",
-      "keywords": ["React", "Desarrollo de APIs", "Código Abierto"]
+      "keywords": [
+        "React",
+        "Desarrollo de APIs",
+        "Código Abierto"
+      ]
     },
     {
       "name": "Videojuegos",
-      "keywords": ["Juegos de Estrategia", "Desarrollo de Juegos", "Realidad Virtual"]
+      "keywords": [
+        "Juegos de Estrategia",
+        "Desarrollo de Juegos",
+        "Realidad Virtual"
+      ]
     }
   ],
   "references": [
@@ -201,9 +231,9 @@
       "highlights": [
         "Desarrollada en Java",
         "Base de datos integrada"
-      ], "url":"https://github.com/kevvj/PetsHCandS"
+      ],
+      "url": "https://github.com/kevvj/PetsHCandS"
     },
-    
     {
       "name": "JoJoApp - Enciclopedia de Stands de JoJo's Bizarre Adventure",
       "isActive": true,
@@ -215,6 +245,5 @@
       ],
       "url": "https://github.com/kevvj/JojosApp"
     }
-    
   ]
 }

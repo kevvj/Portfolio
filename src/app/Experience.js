@@ -14,7 +14,7 @@ const Experience = () => {
                     {work.map(({ name, startDate, endDate, position, summary, highlights }) => {
 
                         const startYear = new Date(startDate).getFullYear()
-                        const endYear = endDate == ! null ? new Date(endDate).getFullYear() : "Actual"
+                        const endYear = endDate == ! null ? new Date(endDate).getFullYear() : "2025"
                         const years = `${startYear} - ${endYear}`
                         return (
                             <li>

@@ -50,7 +50,7 @@ const Hero = () => {
                         
                         {
                             email && (
-                                <a href={`email to: ${email}`}
+                                <a 
                                     title={`envia un correo a: ${name} al correo ${email}`}
                                     target="_black"
                                     rel="noopener noreferrer"
@@ -63,9 +63,9 @@ const Hero = () => {
                         }
 
 {
-                            email && (
-                                <a href={`tel: ${phone}`}
-                                    title={`Llamar por telefono a: ${name} al numero ${email}`}
+                            phone && (
+                                <a 
+                                    title={`Llamar por telefono a: ${name} al numero ${phone}`}
                                     target="_black"
                                     rel="noopener noreferrer"
                                 >
@@ -102,7 +102,7 @@ const Hero = () => {
                 </div>
 
                 <figure>
-                    <img src= "./ICONS/icon.png" alt={name}></img>
+                    <img src= "./ICONS/icon.jpg" alt={name}></img>
                 </figure>
 
 

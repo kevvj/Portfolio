@@ -43,27 +43,15 @@
   "work": [
     {
       "name": "WithLove - Decoraciones Infantiles",
-      "position": "Desarrollador Full Stack (Freelance)",
+      "position": "Desarrollo Full Stack (Freelance)",
       "url": "https://github.com/kevvj",
-      "startDate": "2022-01-01",
+      "startDate": "2024-12-12",
       "endDate": "",
       "summary": "Desarrollo de una plataforma personalizada para la gestión y promoción de decoraciones infantiles, integrando herramientas modernas para mejorar la experiencia del usuario y la eficiencia operativa.",
       "highlights": [
         "Creación de un sitio web atractivo y funcional para exhibir servicios y productos de decoración infantil.",
         "Implementación de funcionalidades interactivas para la personalización de pedidos según las necesidades del cliente.",
         "Optimización del rendimiento y accesibilidad para mejorar la experiencia de usuario en dispositivos móviles y escritorio."
-      ]
-    },
-    {
-      "name": "Proyectos Personales",
-      "position": "Desarrollador Full Stack (Estudiante)",
-      "url": "https://github.com/kevvj",
-      "startDate": "2022-01-01",
-      "endDate": "",
-      "summary": "Apasionado por el desarrollo web, he creado y colaborado en proyectos que me han permitido dominar tecnologías front-end y back-end. Desde plataformas de comercio electrónico hasta aplicaciones interactivas, mis proyectos destacan por su diseño funcional y orientado al usuario. Siempre en busca de soluciones creativas y prácticas, aplico lo último en desarrollo full-stack para optimizar la experiencia del usuario y la eficiencia del código.",
-      "highlights": [
-        "Diseño y desarrollo de una plataforma de comercio electrónico, integrando React y Node.js para una experiencia fluida y segura",
-        "Creación de un portafolio profesional personal con una interfaz atractiva y responsive para exhibir mis proyectos de forma dinámica"
       ]
     }
   ],
@@ -233,6 +221,16 @@
         "Base de datos integrada"
       ],
       "url": "https://github.com/kevvj/PetsHCandS"
+    },
+    {
+      "name": "Generador automatico de sticker para Whatsapp",
+      "isActive": true,
+      "description": "Bot que interactua con el usuario para generar sticker personalizados para whatsapp",
+      "highlights": [
+        "Desarrollada con Node.js y Puppeteer",
+        "stickers de todo tipo, memes, fotos, videos, etc"
+      ],
+      "url": "https://github.com/kevvj/JojosApp"
     },
     {
       "name": "JoJoApp - Enciclopedia de Stands de JoJo's Bizarre Adventure",

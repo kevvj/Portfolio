@@ -16,7 +16,7 @@ export default function Home() {
       <Hero></Hero>
       <About></About>
       <Experience></Experience>
-      <FLProyects></FLProyects>
+      {/* <FLProyects></FLProyects> */}
       <Projects></Projects>
       <Skills></Skills>
     </div>

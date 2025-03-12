@@ -3,11 +3,10 @@
     border: 1px solid #f2f2f2;
     display: flex;
     flex-direction: column;
-    height: 100%; 
 }
 
 .projects-conteiner li{
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .projects-conteiner header {
